@@ -152,3 +152,30 @@ border-radius: 5px;
 .icon .fas {
     color: orange;
 }
+
+/* ----------------
+     Footer
+------------------*/
+footer {
+    background-color: #0A0826;;
+    color: #fff;
+}
+footer .fab {
+    margin-left: 16px;
+    Width: 32px;
+Height: 32px;
+}
+.foot-cart {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    align-items: center;
+    height: 240px;
+    background-color: #0A0826;;
+}
+.foot-cart small {
+    color: #D9DBE1;
+    font-size: 14px;
+line-height: 24px;
+font-weight:300;
+}
