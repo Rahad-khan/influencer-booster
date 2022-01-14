@@ -23,7 +23,9 @@ p, button {
 line-height: 24px;
 font-weight: 600;
 }
-
+h3 {
+    font-size: 28px;
+}
 /* ----------------
       Header
 ------------------*/
@@ -82,4 +84,71 @@ height: 44px;
 background: #E02C6D;
 border-radius: 41px;
 border: none;
+}
+/* ----------------
+     Company
+------------------*/
+.company {
+    width: 1110px;
+height: 110px;
+display: flex;
+padding: 40px 0;
+justify-content: space-evenly;
+border-top: 2px solid rgba(192, 192, 192, 0.404);
+border-bottom: 2px solid rgba(192, 192, 192, 0.404);
+}
+.company img{
+    width: 90px;
+height: 40px;
+}
+/* ----------------
+     Collection
+------------------*/
+.popular-collection {
+    margin: 100px 0;
+}
+.clct-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.popular-collection >.container {
+    width: 1047px;
+}
+.popular-collection .para, .icon {
+    color: #787885;
+    font-size: 14px;
+    line-height: 143%;
+}
+.popular-collection .price {
+    margin: 8px 0;
+    font-weight: normal;
+font-size: 24px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.popular-collection .container > p>a { 
+color:#E02C6D;
+text-decoration: none;
+}
+.popular-collection .container > p {
+    text-align-last: right;
+    margin-top: 50px;
+}
+.clct-menu {
+    width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+padding: 15px;
+}
+.clct-pic img {
+    width: 300px;
+height: 256px;
+border-radius: 5px;
+}
+.icon .fas {
+    color: orange;
 }
