@@ -1,0 +1,85 @@
+/* ----------------
+      Font 
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+/* ----------------
+      Common
+------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+p, button {
+    font-size: 16px;
+line-height: 24px;
+font-weight: 600;
+}
+
+/* ----------------
+      Header
+------------------*/
+header {
+    margin: 90px 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.link-list {
+    display: flex;
+    list-style: none;
+}
+.link-item {
+ margin-left: 34px;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+font-size: 16px;
+}
+/* ----------------
+      Aim
+------------------*/
+.section-aim {
+    margin: 50px 0;
+}
+.aim-zone {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.aim-pic .aim-camera {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+}
+.aim-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.aim-details h1 {
+    font-weight: bold;
+font-size: 52px;
+}
+.aim-details button {
+    padding: 10px 24px;
+color: #fff;
+width: 196px;
+height: 44px;
+
+background: #E02C6D;
+border-radius: 41px;
+border: none;
+}
