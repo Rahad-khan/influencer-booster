@@ -1,181 +1,225 @@
 /* ----------------
       Font 
 ------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap");
 /* ----------------
       Common
 ------------------*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: #fff;
-    font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
-p, button {
-    font-size: 16px;
-line-height: 24px;
-font-weight: 600;
+p,
+button {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
 }
 h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
 /* ----------------
       Header
 ------------------*/
 header {
-    margin: 90px 0;
+  margin: 90px 0;
 }
 .navigation {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .link-list {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 .link-item {
- margin-left: 34px;
+  margin-left: 34px;
 }
 .nav-link {
-    text-decoration: none;
-    color: black;
-font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
 }
 /* ----------------
       Aim
 ------------------*/
 .section-aim {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 .aim-zone {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .aim-pic .aim-camera {
-    position: absolute;
-    top: 20px;
-    right: 35px;
+  position: absolute;
+  top: 20px;
+  right: 35px;
 }
 .aim-details {
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
 }
 .aim-details h1 {
-    font-weight: bold;
-font-size: 52px;
+  font-weight: bold;
+  font-size: 52px;
 }
 .aim-details button {
-    padding: 10px 24px;
-color: #fff;
-width: 196px;
-height: 44px;
+  padding: 10px 24px;
+  color: #fff;
+  width: 196px;
+  height: 44px;
 
-background: #E02C6D;
-border-radius: 41px;
-border: none;
+  background: #e02c6d;
+  border-radius: 41px;
+  border: none;
 }
 /* ----------------
      Company
 ------------------*/
 .company {
-    width: 1110px;
-height: 110px;
-display: flex;
-padding: 40px 0;
-justify-content: space-evenly;
-border-top: 2px solid rgba(192, 192, 192, 0.404);
-border-bottom: 2px solid rgba(192, 192, 192, 0.404);
+  width: 1110px;
+  height: 110px;
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-evenly;
+  border-top: 2px solid rgba(192, 192, 192, 0.404);
+  border-bottom: 2px solid rgba(192, 192, 192, 0.404);
 }
-.company img{
-    width: 90px;
-height: 40px;
+.company img {
+  width: 90px;
+  height: 40px;
 }
 /* ----------------
      Collection
 ------------------*/
 .popular-collection {
-    margin: 100px 0;
+  margin: 100px 0;
 }
 .clct-header {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
-.popular-collection >.container {
-    width: 1047px;
+.popular-collection > .container {
+  width: 1047px;
 }
-.popular-collection .para, .icon {
-    color: #787885;
-    font-size: 14px;
-    line-height: 143%;
+.popular-collection .para,
+.icon {
+  color: #787885;
+  font-size: 14px;
+  line-height: 143%;
 }
 .popular-collection .price {
-    margin: 12px 0;
-    font-weight: normal;
-font-size: 24px;
+  margin: 12px 0;
+  font-weight: normal;
+  font-size: 24px;
 }
 .collections {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
 }
-.popular-collection .container > p>a { 
-color:#E02C6D;
-text-decoration: none;
+.popular-collection .container > p > a {
+  color: #e02c6d;
+  text-decoration: none;
 }
 .popular-collection .container > p {
-    text-align-last: right;
-    margin-top: 50px;
+  text-align-last: right;
+  margin-top: 50px;
 }
 .clct-menu {
-    width: 329px;
-height: 476px;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-border-radius: 5px;
-padding: 15px;
+  width: 329px;
+  height: 476px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 15px;
 }
 .clct-pic img {
-    width: 300px;
-height: 256px;
-border-radius: 5px;
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
 }
 .icon .fas {
-    color: orange;
+  color: orange;
 }
-
+/* ----------------
+     Feature
+------------------*/
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features span {
+  color: #e02c6d;
+}
+.feature-pic img {
+  border-radius: 10px;
+}
+.feature-details h1 {
+  margin-bottom: 25px;
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.input-container input:focus {
+    outline: none !important;
+  border: 2px solid #e02c6e69;
+}
+.features .fas {
+  padding: 10px;
+  background-color: #e02c6d;
+  color: #fff;
+}
+.features input,
+button,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+.features button {
+  background-color: #e02c6d;
+  color: #fff;
+  border: none;
+}
 /* ----------------
      Footer
 ------------------*/
 footer {
-    background-color: #0A0826;;
-    color: #fff;
+  background-color: #0a0826;
+  color: #fff;
 }
 footer .fab {
-    margin-left: 16px;
-    Width: 32px;
-Height: 32px;
+  margin-left: 16px;
+  width: 32px;
+  height: 32px;
 }
 .foot-cart {
-    display: flex;
-    flex-direction: column;
-justify-content: center;
-    align-items: center;
-    height: 240px;
-    background-color: #0A0826;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  background-color: #0a0826;
 }
 .foot-cart small {
-    color: #D9DBE1;
-    font-size: 14px;
-line-height: 24px;
-font-weight:300;
+  color: #d9dbe1;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
 }
