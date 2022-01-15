@@ -1,0 +1,34 @@
+/*==================  Mobile view Under 688  ==================*/
+@media only screen and (max-width: 688px) {
+  /*==================  Header  ==================*/
+  .navigation {
+    display: none;
+  }
+  .aim-zone {
+    flex-direction: column-reverse;
+  }
+  .aim-camera {
+    width: 202px;
+    height: 190px;
+  }
+  .aim-pic img:first-child {
+    width: 257px;
+    height: 257px;
+  }
+  .aim-pic .aim-camera {
+    top: 20px;
+    right: 125px;
+  }
+  .aim-details h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+  /*==================  Company  ==================*/
+  .company {
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+  }
+}
