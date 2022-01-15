@@ -2,7 +2,7 @@
 @media only screen and (max-width: 688px) {
   /*==================  Header  ==================*/
   .navigation {
-    display: none;
+    
   }
   .section-aim {
     margin: 20px 0;
@@ -25,6 +25,9 @@
   .aim-details h1 {
     text-align: center;
     font-size: 28px;
+  }
+  .aim-details button {
+  margin: 0 auto;
   }
   /*==================  Company  ==================*/
   .company {
@@ -56,6 +59,11 @@
     text-align-last: right;
     margin: 50px 15px 0 0;
   }
+   /*==================  Feature ==================*/
+   .features {
+     flex-direction: column;
+     row-gap: 20px;
+   }
 }
 /*==================  Tab view Under 688  ==================*/
 @media only screen and (min-width: 688px) and (max-width: 991px) {
@@ -102,5 +110,10 @@
   .container > p {
     text-align-last: right;
     margin: 50px 25px 0 0;
+}
+/*==================  Company  ==================*/
+.features {
+  flex-direction: column;
+  row-gap: 30px;
 }
 }
