@@ -94,7 +94,7 @@ header {
      Company
 ------------------*/
 .company {
-  width: 1110px;
+  width: 80%;
   height: 110px;
   display: flex;
   padding: 40px 0;
