@@ -1,8 +1,14 @@
 /*==================  Mobile view Under 688  ==================*/
 @media only screen and (max-width: 688px) {
   /*==================  Header  ==================*/
-  .navigation {
-    
+  header {
+    margin: 30px 0;
+}
+  .nav-right {
+    display: none;
+  }
+  .navigation{
+    justify-content: center;
   }
   .section-aim {
     margin: 20px 0;
