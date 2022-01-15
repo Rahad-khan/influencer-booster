@@ -232,3 +232,6 @@ footer .fab {
   line-height: 24px;
   font-weight: 300;
 }
+.foot-cart p:last-child {
+  margin-top: 10px;
+}
